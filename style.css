@@ -1,0 +1,82 @@
+/* background image for page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #bfdbf7; 
+    margin: 0;
+    padding: 0;
+    background-image: url('https://images.unsplash.com/photo-1682687982093-4773cb0dbc2e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHw3M3x8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60'); /* Replace with your image URL */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#title {
+    text-align: center;
+    color: #0d1b2a;
+    padding: 18px;
+    padding-bottom:0px;
+    margin-bottom: 5px; 
+}
+
+/* description section */
+#description {
+    text-align: center;
+    font-style: italic;
+    color: #415a77;
+    font-size: 20px;
+    margin-top:0px;
+    padding-top:0px;
+}
+
+/* form container */
+#survey-form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: rgba(245, 245, 255, .885);
+    padding: 20px;
+    border-radius: 20px; 
+    box-shadow: 0px 0px 12px rgba(10, 10, 10, 1); 
+}
+
+/*form elements and labels */
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+    width: 100%;
+    padding: 4px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+}
+
+/*radio buttons and checkboxes */
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+/*submit button */
+button {
+    background-color: #222;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: #cc5803;
+
+}
+
+
+
+
